@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <style>
+        table{
+            width: 1000px;
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th{
+            text-align: left;
+            background-color: lightgreen;
+        }
+        table, td, th{
+            border: 2px solid rgb(224, 216, 216);
+            border-collapse: collapse;
+            padding: 10px;
+            line-height: 1.5;
+        }
+        .lebel{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        .qty{
+            text-align: center;
+        }
+        .price{
+            text-align: right;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(244, 245, 190)">
+    <div>
+        <table>
+            <tr>
+                <th colspan="3" style="text-align: center">Invoice: #20221001</th>
+                <th style="text-align: center">01 Oct 2022</th>
+            </tr>
+    
+            <tr>
+                <td colspan="2">
+                    <span class="lebel">Pay to:</span></br>
+                    Md. Mehedi Hasan Khan</br>
+                    6/23 Salimullah Road, Mohammadpur</br>
+                    Dhaka - 1207
+    
+                </td>
+                <td colspan="2">
+                    <span class="lebel">Customer:</span></br>
+                    Md. Samiul Alim</br>
+                    6/23 Salimullah Road, Mohammadpur</br>
+                    Dhaka - 1207
+    
+                </td>
+            </tr>
+    
+            <tr>
+                <th>Product</th>
+                <th style="text-align: center">Qty.</th>
+                <th style="text-align: right">Unit Price</th>
+                <th style="text-align: right">Amount</th>
+            </tr>
+    
+            <tr>
+                <td>Monitor</td>
+                <td class="qty">1</td>
+                <td class="price">12,000 BDT</td>
+                <td class="price">12,000 BDT</td>
+            </tr>
+    
+            <tr>
+                <td>RAM</td>
+                <td class="qty">1</td>
+                <td class="price">4,200 BDT</td>
+                <td class="price">4,200 BDT</td>
+            </tr>
+    
+            <tr>
+                <td>Headphone</td>
+                <td class="qty">2</td>
+                <td class="price">1,350 BDT</td>
+                <td class="price">2,600 BDT</td>
+            </tr>
+    
+            <tr>
+                <td>Multi-plug</td>
+                <td class="qty">1</td>
+                <td class="price">700 BDT</td>
+                <td class="price">700 BDT</td>
+            </tr>
+
+            <tr>
+                <th colspan="3">Sub-total</th>
+                <td class="price">19,500 BDT</td>
+            </tr>
+
+            <tr>
+                <th colspan="2">Tax</th>
+                <td class="price">15%</td>
+                <td class="price">2,925 BDT</td>
+            </tr>
+
+            <tr>
+                <th colspan="3">Grand Total</th>
+                <td class="price">22,425 BDT</td>
+            </tr>
+    
+        </table>
+    </div>
+    
+</body>
+</html>

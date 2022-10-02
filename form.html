@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            margin: 0;
+        }
+        .icon{
+            width: 50px;
+            height: 50px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        form{
+            margin-top: 20px;
+            background-color: rgb(252, 252, 202);
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            border: 2px solid rgb(179, 177, 177);
+            border-radius: 15px;
+            
+        }
+        #heading{
+            font-size: 35px;
+            color: rgb(80, 0, 112);
+            padding-top: 40px;
+            padding-bottom: 20px;
+        }
+        #icon-wrapper{
+            background-color: rgb(219, 189, 248);
+            padding: 15px;
+        }
+        .input-box{
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border-right: 0;
+            border-top: 0;
+            border-left: 0;
+            border-bottom: 1px sold rgb(233, 217, 217);
+            width: 100%;
+            border-radius: 15px;
+        }
+        #input-wrapper{
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-right: 80px;
+            padding-left: 80px;
+        }
+        #btn-submit{
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border-radius: 15px;
+            background-color: rgb(92, 236, 92);
+            border: none;
+            font-size: 18px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form action="">
+            <h1 id="heading">Sign Up</h1>
+            <div id="icon-wrapper">
+                <img class="icon" src="/images/google.png" alt="Google">
+                <img class="icon" src="/images/github.png" alt="Github">
+                <img class="icon" src="/images/linkedin.png" alt="Linkedin">
+                <img class="icon" src="/images/facebook.png" alt="Facebook">
+            </div>
+            <div id="input-wrapper">
+                <div>
+                    <input class="input-box"
+                    type="text"
+                    name="username"
+                    placeholder="username">
+                </div>
+
+                <div>
+                    <input class="input-box"
+                    type="email"
+                    name="email"
+                    placeholder="example@email.com">
+                </div>
+
+                <div>
+                    <input class="input-box"
+                    type="password"
+                    name="password"
+                    placeholder="Password">
+                </div>
+
+                <div>
+                    <input class="input-box"
+                    type="password"
+                    name="confirm-password"
+                    placeholder="Confirm Password">
+                </div>
+
+                <div>
+                    <input id="btn-submit"
+                    type="submit"
+                    value="Sign Up">
+                </div>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
